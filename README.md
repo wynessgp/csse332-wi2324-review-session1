@@ -1,5 +1,21 @@
 # CSSE332 Practice Exam 1, Winter 23-24
 
+## How to download and edit the files here:
+First, create a new directory on your WSL. You can do this by running the following command:
+``` 
+mkdir <directory name>
+```
+Once you've done that, go ahead and cd into the directory. Then, you'll want to go ahead and click on the 'code' button on the main page. Select the ssh button, and then copy to clipboard. I believe the link should be the same for everyone, so you can also just go ahead and copy this:
+```
+git@github.com:wynessgp/CSSE332-Review-Session-1-Material.git
+```
+Once you are in your newly created directory and have the above copied into your clipboard, go back to your terminal. Once there, go ahead and type:
+```
+git clone git@github.com:wynessgp/CSSE332-Review-Session-1-Material.git
+```
+And that should go ahead and move all of the files over to your WSL. I'd recommend still leaving up the github page for the nice navigability features the README provides here, but it's up to you. All of the instructions are IN the README, so I strongly recommend leaving it up. <br> <br>
+Note that you can also run the git clone command outside of a directory and it'll just put it your home directory. I don't recommend doing this, but if you want to, note that it'll create a new directory named 'CSSE332-Review-Session-1-Material'.
+
 ## Important Notes
 ### *Administrative* notes: 
 This github will ONLY contain the practice exam, the solutions will NOT be posted here. I've been explicitly asked not to post them here as it will make my sample solutions public. Please, reach out to me individually if you really find having the solutions would help you that much - but remember, it'll take away from the learning process if you can't get them on your own, so you'll REALLY have to pry them out of my hands. I'll give you hints, though.<br><br>
