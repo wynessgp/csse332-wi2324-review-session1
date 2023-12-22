@@ -5,9 +5,9 @@
 #include <sys/wait.h>
 #include <sys/types.h>
 
-#define NUM_PARENTS 3;
-#define NUM_CHILDREN 2;
-#define NUM_GIFTS 2;
+#define NUM_PARENTS 3
+#define NUM_CHILDREN 2
+#define NUM_GIFTS 2
 
 int main() { // no argc, argv on this one. We don't need them.
 
