@@ -7,11 +7,11 @@ mkdir <directory name>
 ```
 Once you've done that, go ahead and cd into the directory. Then, you'll want to go ahead and click on the 'code' button on the main page. Select the ssh button, and then copy to clipboard. I believe the link should be the same for everyone, so you can also just go ahead and copy this:
 ```
-git@github.com:wynessgp/CSSE332-Review-Session-1-Material.git
+git@github.com:wynessgp/csse332-wi2324-review-session1.git
 ```
 Once you are in your newly created directory and have the above copied into your clipboard, go back to your terminal. Once there, go ahead and type:
 ```
-git clone git@github.com:wynessgp/CSSE332-Review-Session-1-Material.git
+git clone git@github.com:wynessgp/csse332-wi2324-review-session1.git
 ```
 And that should go ahead and move all of the files over to your WSL. I'd recommend still leaving up the github page for the nice navigability features the README provides here, but it's up to you. All of the instructions are IN the README, so I strongly recommend leaving it up. <br> <br>
 Note that you can also run the git clone command outside of a directory and it'll just put it your home directory. I don't recommend doing this, but if you want to, note that it'll create a new directory named 'CSSE332-Review-Session-1-Material'.
